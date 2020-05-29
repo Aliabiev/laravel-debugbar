@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aliabiev9\\Debugbar\\": "src/"
+            "Barryvdh\\Debugbar\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -34,10 +34,10 @@
         },
         "laravel": {
             "providers": [
-                "aliabiev9\\Debugbar\\ServiceProvider"
+                "Barryvdh\\Debugbar\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "aliabiev9\\Debugbar\\Facade"
+                "Debugbar": "Barryvdh\\Debugbar\\Facade"
             }
         }
     },
