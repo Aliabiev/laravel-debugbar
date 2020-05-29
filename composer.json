@@ -1,5 +1,5 @@
 {
-    "name": "Aliabiev/laravel-debugbar",
+    "name": "aliabiev9/laravel-debugbar",
     "description": "PHP Debugbar integration for Laravel",
     "keywords": ["laravel", "debugbar", "profiler", "debug", "webprofiler"],
     "license": "MIT",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Aliabiev\\Debugbar\\": "src/"
+            "aliabiev9\\Debugbar\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -34,10 +34,10 @@
         },
         "laravel": {
             "providers": [
-                "Aliabiev\\Debugbar\\ServiceProvider"
+                "aliabiev9\\Debugbar\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Aliabiev\\Debugbar\\Facade"
+                "Debugbar": "aliabiev9\\Debugbar\\Facade"
             }
         }
     },
