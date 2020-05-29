@@ -1,12 +1,12 @@
 {
-    "name": "barryvdh/laravel-debugbar",
+    "name": "Aliabiev/laravel-debugbar",
     "description": "PHP Debugbar integration for Laravel",
     "keywords": ["laravel", "debugbar", "profiler", "debug", "webprofiler"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Barry vd. Heuvel",
-            "email": "barryvdh@gmail.com"
+            "name": "Andrew",
+            "email": "alyabjev09@gmail.com"
         }
     ],
     "require": {
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Barryvdh\\Debugbar\\": "src/"
+            "Aliabiev\\Debugbar\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -34,14 +34,14 @@
         },
         "laravel": {
             "providers": [
-                "Barryvdh\\Debugbar\\ServiceProvider"
+                "Aliabiev\\Debugbar\\ServiceProvider"
             ],
             "aliases": {
-                "Debugbar": "Barryvdh\\Debugbar\\Facade"
+                "Debugbar": "Aliabiev\\Debugbar\\Facade"
             }
         }
     },
     "require-dev": {
-        "laravel/framework": "5.5.x"
+        "laravel/framework": "7.0.x"
     }
 }
